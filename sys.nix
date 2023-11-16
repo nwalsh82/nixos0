@@ -6,4 +6,8 @@
 
   # Configure the X server layout to Spanish
   services.xserver.layout = "es";
+
+  environment.systemPackages = with pkgs; [
+    vim
+  ]
 }
