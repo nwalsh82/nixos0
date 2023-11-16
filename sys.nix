@@ -2,8 +2,8 @@
 
 {
   # Set the console keymap to Spanish
-  console.KeyMap = "es";
+  console.keyMap = "es";
 
   # Configure the X server layout to Spanish
-  services.xserverlayout = "es";
+  services.xserver.layout = "es";
 }
