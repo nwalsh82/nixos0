@@ -8,6 +8,6 @@
   services.xserver.layout = "es";
 
   environment.systemPackages = with pkgs; [
-    vim
+    vim;
   ]
 }
